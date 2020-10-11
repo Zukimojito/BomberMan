@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &213954375078860769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8957150725505893594}
+  - component: {fileID: 3466797839601482318}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8957150725505893594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213954375078860769}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3466797839601482318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213954375078860769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3da0dbe58012854db9366a2953121d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _width: 3
+  _height: 3
+  _floorPrefab: {fileID: 3571789039576170688, guid: 52dc0e29fa824ff45a446118f45d272a,
+    type: 3}
+  _solidWallPrefab: {fileID: 5250905456044467977, guid: b131c7a28215cc5469f1524689f080b0,
+    type: 3}
+  _breakableWallPrefab: {fileID: 5250905456044467977, guid: f892db825ffd0bd4c86d0b7b92cb5065,
+    type: 3}
+  _solidWallBorderPrefab: {fileID: 1976266196899790045, guid: 42be6f94660bb3d42874f70a88decbad,
+    type: 3}
+  _solidWallBorderCornerPrefab: {fileID: 5421979102555985277, guid: 4db26a7047ddb954c99aff79fe32fc9b,
+    type: 3}
+  _explosionPrefab: {fileID: 1337198075554910, guid: c89382492d55215488162345624f0c88,
+    type: 3}
+  _itemsPrefab:
+  - {fileID: 3982294922763239222, guid: 776ddaeb5e6ad744ca9a02150ffc8344, type: 3}
+  - {fileID: 3982294922763239222, guid: e35aa091ed0fa1744849003d521b72c9, type: 3}
+  _breakableWallProbability: 0.7
+  _itemDropProbability: 0.189
